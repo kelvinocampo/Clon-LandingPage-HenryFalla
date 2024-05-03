@@ -23,6 +23,8 @@ header {
     justify-content: center;
     align-items: center;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url('../assets/imgs/angel-jimenez.jpg');
     height: 100vh;
 }
@@ -66,17 +68,15 @@ article {
 }
 
 article button {
-    width: 9rem;
-    height: 3.2rem;
+    width: 16em;
+    height: 3.2em;
     font-size: 1vw;
     color: white;
     background-color: #fd4c5c;
     border: none;
     border-radius: 24px;
 }
-.container-w{
-    padding: 4em 0;
-}
+
 .text {
     font-size: 1.3vw;
     line-height: 1.8vw;
@@ -163,8 +163,12 @@ hr {
 
 .img {
     height: 100%;
+    display: grid;
+    place-items: center;
+    width: 40%;
 }
 
 .img img {
     max-height: 100%;
+    max-width: 100%;
 }
